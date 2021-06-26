@@ -53,6 +53,24 @@ const useStyles = makeStyles(theme => ({
             opacity: '0.9'
         }
     },
+    [theme.breakpoints.down('xs')]: {
+        footer: {
+            flexDirection: 'column'
+        },
+        copyright: {
+            textAlign: 'center'
+        },
+        footerIcons: {
+            display: 'none'
+        },
+        footerLinks: {
+            margin: '25px 0',
+            flexWrap: 'wrap',
+            "& li": {
+                margin: "10px"
+            }
+        }
+    }
 }))
 
 export default useStyles
