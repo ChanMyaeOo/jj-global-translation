@@ -29,7 +29,7 @@ const useStyles = makeStyles(theme => ({
     },
     [theme.breakpoints.down('xs')]: {
         searchInput: {
-            width: '40%'
+            width: '50%'
         }
     }
 }))
