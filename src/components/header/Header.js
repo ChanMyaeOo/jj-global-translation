@@ -18,8 +18,8 @@ const Header = () => {
     return (
         <div >
             <div className={classes.header}>
-                <Link to="/">
-                    <img src={Logo} alt="Logo" />
+                <Link to="/" >
+                    <img src={Logo} alt="Logo" className={classes.headerLogo} />
                 </Link>
 
                 <MenuIcon className={classes.menu} onClick={handleMenu} />

@@ -17,7 +17,7 @@ const useStyles = makeStyles(theme => ({
     searchInput: {
         padding: '0 5px',
         height: 'inherit',
-        minWidth: '250px',
+        width: '20%',
         border: '1px solid #e0e0e0'
     },
     searchBtn: {
@@ -26,6 +26,11 @@ const useStyles = makeStyles(theme => ({
         marginLeft: '5px',
         border: '1px solid #e0e0e0',
 
+    },
+    [theme.breakpoints.down('xs')]: {
+        searchInput: {
+            width: '40%'
+        }
     }
 }))
 

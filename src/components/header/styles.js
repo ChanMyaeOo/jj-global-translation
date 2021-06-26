@@ -42,23 +42,32 @@ const useStyles = makeStyles(theme => ({
         }
     },
     menu: {
-        display: 'none'
+        display: 'none',
     },
     resMenu: {
         display: 'none'
     },
     [theme.breakpoints.down('xs')]: {
+        header: {
+            height: '101px'
+        },
+        headerLogo: {
+            width: '65%'
+        },
         menu: {
             display: 'block',
             fontSize: '42px',
-            padding: '15px',
-            color: 'rgba(0,0,118,0.80)'
+            color: 'rgba(0,0,118,0.80)',
+            position: 'absolute',
+            top: '20px',
+            left: '120px'
         },
         nav: {
             display: 'none',
         },
         headerBtn: {
-            marginLeft: "auto"
+            marginLeft: "auto",
+            padding: '8px'
         },
         resMenu: {
             position: 'absolute',
@@ -66,6 +75,9 @@ const useStyles = makeStyles(theme => ({
             right: 0,
             width: '100vw',
             background: 'white',
+            "& a": {
+                textDecoration: 'none'
+            },
             "& > ul": {
                 listStyle: 'none',
                 color: 'rgb(0 0 118 / 80%)',
