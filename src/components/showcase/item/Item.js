@@ -8,7 +8,7 @@ const Item = ({ oddItem, title }) => {
     return (
         <Grid item md={4} xs={12} className={classes.item}>
             <div className={oddItem ? classes.oddItem : classes.evenItem}>
-                <Link className={classes.itemTitle}>
+                <Link className={classes.itemTitle} to="/">
                     {title}
                 </Link>
             </div>
