@@ -13,7 +13,7 @@ const useStyles = makeStyles(theme => ({
         "& h3": {
             color: 'rgba(0,0,118,0.80)',
             fontSize: '20.8px',
-            margin: '20px 0 10px 0'
+            margin: '20px 0 5px 0'
         }
     },
     rightReview: {
@@ -42,6 +42,25 @@ const useStyles = makeStyles(theme => ({
         fontWeight: 'bold',
         textDecoration: 'none',
         color: 'rgba(0,0,118,0.80)',
+    },
+    [theme.breakpoints.down('xs')]: {
+        review: {
+            flexDirection: 'column',
+            paddingBottom: '10px'
+        },
+        starReview: {
+            fontSize: '56px',
+            marginLeft: '10px'
+        },
+        leftReview: {
+            minWidth: 0
+        },
+        rightReview: {
+            "& p": {
+                marginTop: '10px',
+                paddingLeft: 0
+            }
+        },
     }
 }))
 
