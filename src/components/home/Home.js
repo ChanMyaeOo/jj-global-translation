@@ -11,6 +11,7 @@ import Hero from '../hero/Hero'
 import Showcase from '../showcase/Showcase'
 import Quality from '../quality/Quality'
 import Review from '../review/Review'
+import Footer from '../footer/Footer'
 
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
                         <Showcase />
                         <Quality />
                         <Review />
+                        <Footer />
                     </div>
                 </Route>
             </Switch>
