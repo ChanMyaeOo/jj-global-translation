@@ -9,6 +9,7 @@ import Header from '../header/Header'
 import Search from '../search/Search'
 import Hero from '../hero/Hero'
 import Showcase from '../showcase/Showcase'
+import Quality from '../quality/Quality'
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
                         <Search />
                         <Hero />
                         <Showcase />
+                        <Quality />
                     </div>
                 </Route>
             </Switch>
