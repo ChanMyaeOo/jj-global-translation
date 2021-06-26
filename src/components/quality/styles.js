@@ -21,6 +21,13 @@ const useStyles = makeStyles(theme => ({
     qualityText: {
         marginTop: '20px',
         paddingBottom: '30px'
+    },
+    [theme.breakpoints.down('xs')]: {
+        circle: {
+            width: '100px',
+            height: '100px',
+            margin: '16px 10px 0 10px'
+        }
     }
 }))
 
