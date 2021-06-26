@@ -7,6 +7,7 @@ import {
 import { Divider } from '@material-ui/core'
 import Header from '../header/Header'
 import Search from '../search/Search'
+import Hero from '../hero/Hero'
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
                         <Header />
                         <Divider />
                         <Search />
+                        <Hero />
                     </div>
                 </Route>
             </Switch>
