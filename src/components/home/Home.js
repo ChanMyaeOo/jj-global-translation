@@ -10,6 +10,7 @@ import Search from '../search/Search'
 import Hero from '../hero/Hero'
 import Showcase from '../showcase/Showcase'
 import Quality from '../quality/Quality'
+import Review from '../review/Review'
 
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
                         <Hero />
                         <Showcase />
                         <Quality />
+                        <Review />
                     </div>
                 </Route>
             </Switch>
