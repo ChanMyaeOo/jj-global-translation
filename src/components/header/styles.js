@@ -7,7 +7,7 @@ const useStyles = makeStyles(theme => ({
         height: '151px',
         width: '95vw',
         maxWidth: '1280px',
-        margin: '0 auto'
+        margin: '0 auto',
     },
     nav: {
         listStyle: 'none',
@@ -15,11 +15,13 @@ const useStyles = makeStyles(theme => ({
         justifyContent: 'flex-start',
         marginLeft: '30px',
         flexGrow: 1,
+        "& a": {
+            textDecoration: 'none'
+        },
         "& li": {
-            padding: "0 25px",
             color: 'rgb(0 0 118 / 80%)',
-            padding: '15px',
-            fontSize: '95%'
+            fontSize: '95%',
+            padding: '15px'
         },
         "& li:hover": {
             cursor: 'pointer',
@@ -37,6 +39,46 @@ const useStyles = makeStyles(theme => ({
         padding: '15px',
         "&:hover": {
             textDecoration: 'underline',
+        }
+    },
+    menu: {
+        display: 'none'
+    },
+    resMenu: {
+        display: 'none'
+    },
+    [theme.breakpoints.down('xs')]: {
+        menu: {
+            display: 'block',
+            fontSize: '42px',
+            padding: '15px',
+            color: 'rgba(0,0,118,0.80)'
+        },
+        nav: {
+            display: 'none',
+        },
+        headerBtn: {
+            marginLeft: "auto"
+        },
+        resMenu: {
+            position: 'absolute',
+            top: 0,
+            right: 0,
+            width: '100vw',
+            background: 'white',
+            "& > ul": {
+                listStyle: 'none',
+                color: 'rgb(0 0 118 / 80%)',
+                lineHeight: '30px'
+            },
+            "& li": {
+                padding: '20px',
+                borderTop: '1px solid rgb(0 0 118 / 80%)',
+                borderBottom: '1px solid rgb(0 0 118 / 80%)',
+                minHeight: '26px',
+                width: '100%',
+                paddingLeft: '100px',
+            }
         }
     }
 }))
