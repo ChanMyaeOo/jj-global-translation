@@ -18,6 +18,12 @@ const useStyles = makeStyles(theme => ({
     quote: {
         float: 'right',
     },
+    showcaseService: {
+        width: '73vw',
+        marginTop: '25px',
+        marginBottom: '40px'
+    },
+
     [theme.breakpoints.down('xs')]: {
         showcase: {
             marginTop: '15px',
@@ -31,6 +37,9 @@ const useStyles = makeStyles(theme => ({
             width: '161.25px',
             height: '93.75px',
             margin: '5px 15px'
+        },
+        showcaseService: {
+            width: '92vw',
         }
     }
 }))

@@ -1,6 +1,8 @@
 import React from 'react'
+import Grid from '@material-ui/core/Grid';
 import useStyles from './styles'
 import Quote from '../../images/quote.webp'
+import Item from './item/Item'
 
 const Showcase = () => {
     const classes = useStyles();
@@ -15,6 +17,23 @@ const Showcase = () => {
 
             <h3>Primary Translation Services</h3>
             <p>Translator UK, and its network of professional translators offers a wide range of translation services. Below you will find a list of the most popular:</p>
+
+            <Grid container className={classes.showcaseService}>
+                <Item oddItem="oddItem" title="Document Translation" />
+                <Item title="Website Translation" />
+                <Item oddItem="oddItem" title="Sworn Translation" />
+                <Item title="Mobile App Translation" />
+                <Item oddItem="oddItem" title="Certified Translation" />
+                <Item title="Techinal Translation" />
+                <Item oddItem="oddItem" title="Certificate Translation" />
+                <Item title="Medical Translation" />
+                <Item oddItem="oddItem" title="Interpreting Services" />
+                <Item title="Standard Translation" />
+                <Item oddItem="oddItem" title="Legal Translation" />
+                <Item title="User Manual Translation" />
+            </Grid>
+
+            <hr />
         </div>
     )
 }
