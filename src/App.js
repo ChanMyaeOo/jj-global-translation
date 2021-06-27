@@ -7,6 +7,7 @@ import {
 import Layout from './layout/Layout'
 import Home from './pages/home/Home'
 import Translation from './pages/translation/Translation'
+import Prices from './pages/prices/Prices'
 
 const App = () => {
     return (
@@ -15,6 +16,11 @@ const App = () => {
                 <Route path="/translation">
                     <Layout>
                         <Translation />
+                    </Layout>
+                </Route>
+                <Route path="/prices">
+                    <Layout>
+                        <Prices />
                     </Layout>
                 </Route>
                 <Route path="/">
