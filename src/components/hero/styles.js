@@ -8,7 +8,6 @@ const useStyles = makeStyles(theme => ({
         backgroundSize: 'cover',
         backgroundPosition: "center center",
         paddingBottom: '40px',
-        // height: '68vh',
         "& h1": {
             textAlign: 'center',
             fontSize: '3.8em',

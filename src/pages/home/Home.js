@@ -9,14 +9,10 @@ import Review from '../../components/review/Review'
 const Home = () => {
     return (                
          <div>
-           
-            <Divider />
-            <Search />
             <Hero />
             <Showcase />
             <Quality />
             <Review />
-            
          </div>
     )
 }
