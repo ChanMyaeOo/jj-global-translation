@@ -38,7 +38,7 @@ const Footer = () => {
                     <Link to="/"><Twitter className={classes.footerIcon} /></Link>
                     <Link to="/"><Facebook className={classes.footerIcon} /></Link>
                     <Link to="/"><Youtube className={classes.footerIcon} /></Link>
-                    <Link to="/"><img src={Trustpilot} className={classes.footerIcon} /></Link>
+                    <Link to="/"><img src={Trustpilot} className={classes.footerIcon} alt="trustpilot"/></Link>
                     <Link to="/"><GoogleMaps className={classes.footerIcon} /></Link>
 
                 </div>

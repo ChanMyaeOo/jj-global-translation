@@ -25,7 +25,7 @@ const Header = () => {
                 <MenuIcon className={classes.menu} onClick={handleMenu} />
                 <ul className={classes.nav}>
                     <Link to='/'><li>Home</li></Link>
-                    <Link to='/'><li>Translation</li></Link>
+                    <Link to='/translation'><li>Translation</li></Link>
                     <Link to='/'><li>Prices</li></Link>
                     <Link to='/'><li>Legal Translation</li></Link>
                     <Link to='/'><li>Languages</li></Link>
