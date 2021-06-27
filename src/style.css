@@ -4,5 +4,11 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
+}
+
+hr {
+    height: 1px;
+    background-color: rgba(0, 0, 118, 0.8);
+    border: none;
 }
