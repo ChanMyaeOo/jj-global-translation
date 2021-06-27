@@ -20,40 +20,47 @@ const useStyles = makeStyles(theme => ({
     },
     selectionRight: {
         backgroundColor: 'rgba(0,0,0,0.20)',
-        display: 'flex',
-        justifyContent: 'center',
-        flexDirection: 'column',
-        height: '80%',
+        width: '100%',
+        height: 'fit-content',
+        paddingBottom: '10px',
         "& h3": {
             fontSize: '19.2px',
             color: 'rgba(0,0,0,0.40)',
-            paddingLeft: '18px',
-            paddingTop: '10px'
+            padding: '10px',
         }
-    },
-    selectionWrap: {
-        display: 'flex',
-        justifyContent: 'center',
-        margin: '10px 20px 0 0'
     },
     selectionTitle: {
         margin: '30px 0 25px 0',
         color: 'rgba(0,0,118,0.80)'
     },
+    selectionItemWrap: {
+        display: 'flex'
+    },
     selectionItem: {
-        height: '38px',
-        backgroundColor: 'rgba(255,255,255,1.00)',
+        background: '#fff',
+        width: '50%',
+        padding: '10px',
+        margin: '6px 13px',
         color: 'rgba(0,0,118,0.80)',
-        margin: '5px 10px',
-        minWidth: '240px',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center'
+        textDecoration: 'none',
+        "&:hover": {
+            background: 'rgba(0,0,118,0.80)',
+            color: '#fff'
+        }
     },
     [theme.breakpoints.down('xs')]: {
         content: {
             margin: '20px auto',
             width: '90vw'
+        },
+        selectionContent: {
+            flexDirection: 'column'
+        },
+        selectionRight: {
+            marginTop: '35px'
+        },
+        selectionItem: {
+            margin: '5px 10px'
         }
     }
 }))

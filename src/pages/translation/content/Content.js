@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
+import { Link } from 'react-router-dom'
 import useStyles from "./styles";
 
 const Content = () => {
@@ -45,16 +45,25 @@ const Content = () => {
                 </div>
                 <div className={classes.selectionRight}>
                     <h3>Most Popular Language Pairs as of June 2021</h3>
-                    <Grid container className={classes.selectionWrap} >
-                        <Grid item md={5} className={classes.selectionItem}><p>English to Spanish Translation</p></Grid>
-                        <Grid item md={5} className={classes.selectionItem}><p>Spanich to English Translation</p></Grid>
-                        <Grid item md={5} className={classes.selectionItem}><p>English to French Translation</p></Grid>
-                        <Grid item md={5} className={classes.selectionItem}><p>French to English Translation</p></Grid>
-                        <Grid item md={5} className={classes.selectionItem}><p>English to Russian Translation</p></Grid>
-                        <Grid item md={5} className={classes.selectionItem}><p>Russian to English Translation</p></Grid>
-                        <Grid item md={5} className={classes.selectionItem}><p>English to Arabic Translation</p></Grid>
-                        <Grid item md={5} className={classes.selectionItem}><p>Arabic to English Translation</p></Grid>
-                    </Grid>
+                    <div className={classes.selectionItemWrap}>
+                        <Link to="/" className={classes.selectionItem}>English to Spanish Translation</Link>
+                        <Link to="/" className={classes.selectionItem}>Spanish to English Translation</Link>
+                    </div>
+
+                    <div className={classes.selectionItemWrap}>
+                        <Link to="/" className={classes.selectionItem}>English to French Translation</Link>
+                        <Link to="/" className={classes.selectionItem}>French to English Translation</Link>
+                    </div>
+
+                    <div className={classes.selectionItemWrap}>
+                        <Link to="/" className={classes.selectionItem}>English to Russian Translation</Link>
+                        <Link to="/" className={classes.selectionItem}>Russian to English Translation</Link>
+                    </div>
+
+                    <div className={classes.selectionItemWrap}>
+                        <Link to="/" className={classes.selectionItem}>English to Arabic Translation</Link>
+                        <Link to="/" className={classes.selectionItem}>Arabic to English Translation</Link>
+                    </div>
                 </div>
             </div>
         </div>
