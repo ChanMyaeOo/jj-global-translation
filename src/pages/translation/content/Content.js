@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 import useStyles from "./styles";
+import Volume from './volume/Volume';
 
 const Content = () => {
     const classes = useStyles();
@@ -66,6 +67,8 @@ const Content = () => {
                     </div>
                 </div>
             </div>
+
+            <Volume />
         </div>
     );
 };

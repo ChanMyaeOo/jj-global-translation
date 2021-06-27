@@ -5,6 +5,7 @@ const useStyles = makeStyles(theme => ({
         width: '95vw',
         maxWidth: '1280px',
         margin: '50px auto',
+        marginBottom: '25px',
         "& > p": {
             lineHeight: '1.5rem'       
         }
@@ -31,7 +32,8 @@ const useStyles = makeStyles(theme => ({
     },
     selectionTitle: {
         margin: '30px 0 25px 0',
-        color: 'rgba(0,0,118,0.80)'
+        color: 'rgba(0,0,118,0.80)',
+        fontSize: '1.3em'
     },
     selectionItemWrap: {
         display: 'flex'

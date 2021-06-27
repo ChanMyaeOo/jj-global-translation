@@ -11,6 +11,7 @@ const Layout = (props) => {
             <hr />
             <Search />
             {props.children}
+            <hr />
             <Footer />
         </div>
     )

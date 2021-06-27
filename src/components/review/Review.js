@@ -18,7 +18,6 @@ const Review = () => {
                     <img src={SmallLogo} className={classes.reviewLogo} alt="logo" />
                 </div>
             </div>
-            <hr />
         </div>
     )
 }
