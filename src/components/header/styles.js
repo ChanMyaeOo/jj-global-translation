@@ -77,6 +77,7 @@ const useStyles = makeStyles(theme => ({
             height: '100vh',
             background: 'white',
             zIndex: '1000',
+            overflowX: 'hidden',
             "& a": {
                 textDecoration: 'none'
             },
