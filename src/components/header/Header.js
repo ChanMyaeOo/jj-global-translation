@@ -16,7 +16,7 @@ const Header = () => {
         document.querySelector('#res').style.display = 'none'
     }
     return (
-        <div >
+        <div>
             <div className={classes.header}>
                 <Link to="/" >
                     <img src={Logo} alt="Logo" className={classes.headerLogo} />

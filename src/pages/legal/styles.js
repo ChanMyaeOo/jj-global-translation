@@ -36,7 +36,6 @@ const useStyles = makeStyles((theme) => ({
         margin: '20px 0',
         "& > a": {
             padding: '15px',
-            background: 'red',
             width: '100%',
             background: 'rgba(0,0,0,0.20)',
             margin: '5px',

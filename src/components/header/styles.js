@@ -76,6 +76,7 @@ const useStyles = makeStyles(theme => ({
             width: '100vw',
             height: '100vh',
             background: 'white',
+            zIndex: '1000',
             "& a": {
                 textDecoration: 'none'
             },
