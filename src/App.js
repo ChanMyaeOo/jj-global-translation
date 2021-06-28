@@ -8,6 +8,7 @@ import Layout from './layout/Layout'
 import Home from './pages/home/Home'
 import Translation from './pages/translation/Translation'
 import Prices from './pages/prices/Prices'
+import Legal from './pages/legal/Legal'
 
 const App = () => {
     return (
@@ -21,6 +22,11 @@ const App = () => {
                 <Route path="/prices">
                     <Layout>
                         <Prices />
+                    </Layout>
+                </Route>
+                 <Route path="/legal-translation">
+                    <Layout>
+                        <Legal />
                     </Layout>
                 </Route>
                 <Route path="/">

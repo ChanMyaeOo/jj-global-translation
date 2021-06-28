@@ -27,7 +27,7 @@ const Header = () => {
                     <Link to='/'><li>Home</li></Link>
                     <Link to='/translation'><li>Translation</li></Link>
                     <Link to='/prices'><li>Prices</li></Link>
-                    <Link to='/'><li>Legal Translation</li></Link>
+                    <Link to='/legal-translation'><li>Legal Translation</li></Link>
                     <Link to='/'><li>Languages</li></Link>
                     <Link to='/'><li>Services</li></Link>
                     <Link to='/'><li>Contact</li></Link>
@@ -44,7 +44,7 @@ const Header = () => {
                     <Link to="/" onClick={closeMenu}><li>Home</li></Link>
                     <Link to="/translation" onClick={closeMenu}><li>Translation</li></Link>
                     <Link to="/prices" onClick={closeMenu}><li>Prices</li></Link>
-                    <Link to="/" onClick={closeMenu}><li>Legal Translation</li></Link>
+                    <Link to="/legal-translation" onClick={closeMenu}><li>Legal Translation</li></Link>
                     <Link to="/" onClick={closeMenu}><li>Languages</li></Link>
                     <Link to="/" onClick={closeMenu}><li>Services</li></Link>
                     <Link to="/" onClick={closeMenu}><li>Contact</li></Link>
