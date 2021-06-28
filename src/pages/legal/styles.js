@@ -82,7 +82,8 @@ const useStyles = makeStyles((theme) => ({
             marginBottom: '25px'
         },
         "& > ul": {
-            marginLeft: '35px'
+            marginLeft: '35px',
+            lineHeight: '1.5rem'
         }
     },
     [theme.breakpoints.down('xs')]: {
