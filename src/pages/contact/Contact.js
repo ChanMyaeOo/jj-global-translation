@@ -9,18 +9,18 @@ const Contact = () => {
         <div className={classes.contact}>
             <h2>Contact Translator UK Translation Agency</h2>
             <div className={classes.contactTitleWrap}>
-                <h3>Contact details and form for Translator UK Translation Agency</h3>
+                <h3>Contact details and form for Translator UK Translation Agency <Link to="/" className={classes.contactRes}><em>Contact Human Resources</em></Link></h3>
                 <Link to="/" className={classes.contactHR}><em>Contact Human Resources</em></Link>
             </div>
 
             <div className={classes.contactAddress}>
                 <Link to="/" className={classes.contactEmail}>
-                    info@translatoruk.co.uk
+                    <div>info@translatoruk.co.uk</div>
                     <p>✉</p>
                 </Link>
 
                 <Link to="/" className={classes.contactPhone}>
-                    +44 207 993 4894
+                    <div>+44 207 993 4894</div>
                     <p>✆</p>
                 </Link>
             </div>

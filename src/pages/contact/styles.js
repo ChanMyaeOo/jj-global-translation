@@ -26,7 +26,14 @@ const useStyles = makeStyles((theme) => ({
         color: 'rgba(0,0,118,0.80)',
         textDecoration: 'none',
     },
+    contactRes: {
+        color: 'rgba(0,0,118,0.80)',
+        textDecoration: 'none',
+        display: 'none',
+        fontSize: '16px'
+    },
     contactAddress: {
+        width: '100%',
         display: 'flex',
         justifyContent: 'space-between'
     },
@@ -94,6 +101,77 @@ const useStyles = makeStyles((theme) => ({
         "& > button": {
             height: '40px',
             padding: '10px'
+        }
+    },
+    [theme.breakpoints.down('xs')]: {
+        contact: {
+            "& > h2": {
+                fontSize: '20.8px'
+            }
+        },
+        contactTitleWrap: {
+            flexDirection: 'column',
+            "& > h3": {
+                marginRight: 0,
+                fontSize: '16px'
+            },
+        },
+        contactHR: {
+            display: 'none'
+        },
+        contactRes: {
+            display: 'inline'
+        },
+        contactAddress: {
+            flexDirection: 'column',
+            width: '90%',
+            margin: '0 auto'
+        },
+        contactEmail: {
+            order: '2',
+            fontSize: '25px',
+            justifyContent: 'center',
+            marginTop: '-40px',
+            "& > p": {
+                fontSize: '110px',
+                order: '1',
+                paddingLeft: 0
+            },
+            "& > div": {
+                order: '2',
+                fontSize: '25px'
+            }
+        },
+        contactPhone: {
+            order: '1',
+            fontSize: '27.2px',
+            justifyContent: 'center',
+            "& > p": {
+                fontSize: '102px',
+            },
+            "& > div": {
+                fontSize: '25px'
+            }
+        },
+        contactFormWrap: {  
+            maxWidth: '100vw',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            "& > input": {
+                width: '90%',
+            },
+            "& > textarea": {
+                width: '90%'
+            },
+            "& > button": {
+                width: 'fit-content'
+            }
+        },
+        contactQuote: {
+            width: '162px',
+            height: '94px',
+            paddingBottom: '5px'
         }
     }
 }));
