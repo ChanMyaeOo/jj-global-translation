@@ -11,11 +11,17 @@ import Prices from './pages/prices/Prices'
 import Legal from './pages/legal/Legal'
 import Languages from './pages/languages/Languages'
 import Services from './pages/services/Services'
+import Contact from './pages/contact/Contact'
 
 const App = () => {
     return (
          <Router>
             <Switch>
+                <Route path="/contact">
+                    <Layout>
+                        <Contact />
+                    </Layout>
+                </Route>
                  <Route path="/services">
                     <Layout>
                         <Services />
