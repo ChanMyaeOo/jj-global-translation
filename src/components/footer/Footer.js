@@ -22,15 +22,15 @@ const Footer = () => {
             <div className={classes.footerRight}>
                 <ul className={classes.footerLinks}>
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/">Translation</Link></li>
-                    <li><Link to="/">Prices</Link></li>
-                    <li><Link to="/">Legal Translation</Link></li>
-                    <li><Link to="/">Services</Link></li>
-                    <li><Link to="/">Languages</Link></li>
+                    <li><Link to="/translation">Translation</Link></li>
+                    <li><Link to="/pricces">Prices</Link></li>
+                    <li><Link to="/legal-translation">Legal Translation</Link></li>
+                    <li><Link to="/services">Services</Link></li>
+                    <li><Link to="/languages">Languages</Link></li>
                     <li><Link to="/">About</Link></li>
                     <li><Link to="/">Sitemap</Link></li>
                     <li><Link to="/">Terms</Link></li>
-                    <li><Link to="/">Contact</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
 
                 <div className={classes.footerIcons}>

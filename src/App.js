@@ -9,11 +9,17 @@ import Home from './pages/home/Home'
 import Translation from './pages/translation/Translation'
 import Prices from './pages/prices/Prices'
 import Legal from './pages/legal/Legal'
+import Languages from './pages/languages/Languages'
 
 const App = () => {
     return (
          <Router>
             <Switch>
+                 <Route path="/languages">
+                    <Layout>
+                        <Languages />
+                    </Layout>
+                </Route>
                 <Route path="/translation">
                     <Layout>
                         <Translation />
