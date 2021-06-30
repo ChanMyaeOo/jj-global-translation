@@ -14,11 +14,17 @@ import Services from './pages/services/Services'
 import Contact from './pages/contact/Contact'
 import ServiceDetail from './pages/service-detail/ServiceDetial'
 import LanguageDetail from './pages/language-detail/LanguageDetail'
+import About from './pages/about/About'
 
 const App = () => {
     return (
          <Router>
             <Switch>
+                <Route path="/about">
+                    <Layout>
+                        <About />
+                    </Layout>
+                </Route>
                 <Route path="/contact">
                     <Layout>
                         <Contact />

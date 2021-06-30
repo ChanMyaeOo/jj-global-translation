@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import useStyles from './styles'
 
 const Hero = () => {
@@ -7,7 +8,7 @@ const Hero = () => {
         <div className={classes.hero}>
             <h1>Translator UK Translation Agency</h1>
             <h2>Translator UK is an established translation agency with professional translators throughout the United Kingdom</h2>
-            <button className={classes.learnBtn}>Learn More</button>
+            <Link className={classes.learnBtn} to="/about">Learn More</Link>
         </div>
     )
 }
