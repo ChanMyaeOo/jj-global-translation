@@ -20,7 +20,7 @@ const Languages = () => {
             <Grid container className={classes.languagesServices}>
                 {
                     languagesData.map(data => (
-                        <Grid item md={4} lg={4} xl={4} xs={6} key={data.id}><Link to="/">{data.title}</Link></Grid>        
+                        <Grid item md={4} lg={4} xl={4} xs={6} key={data.id}><Link to={`/languages/${data.id}`}>{data.title}</Link></Grid>        
                     ))
                 }
             </Grid>

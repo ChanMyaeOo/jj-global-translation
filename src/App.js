@@ -12,6 +12,8 @@ import Legal from './pages/legal/Legal'
 import Languages from './pages/languages/Languages'
 import Services from './pages/services/Services'
 import Contact from './pages/contact/Contact'
+import ServiceDetail from './pages/service-detail/ServiceDetial'
+import LanguageDetail from './pages/language-detail/LanguageDetail'
 
 const App = () => {
     return (
@@ -22,12 +24,22 @@ const App = () => {
                         <Contact />
                     </Layout>
                 </Route>
-                 <Route path="/services">
+                 <Route exact path="/services">
                     <Layout>
                         <Services />
                     </Layout>
                 </Route>
-                 <Route path="/languages">
+                <Route path="/services/:serviceId">
+                    <Layout>
+                        <ServiceDetail />
+                    </Layout>
+                </Route>
+                <Route path="/languages/:languageId">
+                    <Layout>
+                        <LanguageDetail />
+                    </Layout>
+                </Route>
+                <Route exact path="/languages">
                     <Layout>
                         <Languages />
                     </Layout>

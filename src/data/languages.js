@@ -1,11 +1,69 @@
 export const languagesData = [
     {
         id: '1',
-        title: 'Arabic Translation Services'
+        title: 'Arabic Translation Services',
+        header: 'Arabic Translation Agency in the UK',
+        officialTranslation: [
+                {
+                    id: "1",
+                    title: "Arabic Certified Translations",
+                },
+                {
+                    id: "2",
+                    title: "Arabic Legal Translations"
+                },
+                {
+                    id: "3",
+                    title: "Arabic Certificate Translations"
+                }
+        ],
+        standardTranslation: [
+                {
+                    id: "1",
+                    title: "Arabic User Manual Translations"
+                },
+                {
+                    id: "2",
+                    title: "Arabic Document Translations"
+                },
+                {
+                    id: "3",
+                    title: "Arabic Website Translations"
+                }
+        ],
     },
-     {
+    {
         id: '2',
-        title: 'Bulgarian Translation Services'
+        title: 'Bulgarian Translation Services',
+        header: 'Bulgarian Translation Agency in the UK',
+        officialTranslation: [
+                {
+                    id: "1",
+                    title: "Bulgarian Certified Translations",
+                },
+                {
+                    id: "2",
+                    title: "Bulgarian Legal Translations"
+                },
+                {
+                    id: "3",
+                    title: "Bulgarian Certificate Translations"
+                }
+        ],
+        standardTranslation: [
+                {
+                    id: "1",
+                    title: "Bulgarian User Manual Translations"
+                },
+                {
+                    id: "2",
+                    title: "Bulgarian Document Translations"
+                },
+                {
+                    id: "3",
+                    title: "Bulgarian Website Translations"
+                }
+        ],
     },
      {
         id: '3',

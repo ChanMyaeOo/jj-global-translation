@@ -19,18 +19,18 @@ const Showcase = () => {
             <p>Translator UK, and its network of professional translators offers a wide range of translation services. Below you will find a list of the most popular:</p>
 
             <Grid container className={classes.showcaseService}>
-                <Item oddItem="oddItem" title="Document Translation" />
-                <Item title="Website Translation" />
-                <Item oddItem="oddItem" title="Sworn Translation" />
-                <Item title="Mobile App Translation" />
-                <Item oddItem="oddItem" title="Certified Translation" />
-                <Item title="Techinal Translation" />
-                <Item oddItem="oddItem" title="Certificate Translation" />
-                <Item title="Medical Translation" />
-                <Item oddItem="oddItem" title="Interpreting Services" />
-                <Item title="Standard Translation" />
-                <Item oddItem="oddItem" title="Legal Translation" />
-                <Item title="User Manual Translation" />
+                <Item oddItem="oddItem" title="Document Translation" id="1" />
+                <Item title="Website Translation" id="2" />
+                <Item oddItem="oddItem" title="Sworn Translation" id="3" />
+                <Item title="Mobile App Translation" id="4"/>
+                <Item oddItem="oddItem" title="Certified Translation" id="5"/>
+                <Item title="Techinal Translation" id="6"/>
+                <Item oddItem="oddItem" title="Certificate Translation" id="7"/>
+                <Item title="Medical Translation" id="8"/>
+                <Item oddItem="oddItem" title="Interpreting Services" id="9"/>
+                <Item title="Standard Translation" id="10"/>
+                <Item oddItem="oddItem" title="Legal Translation" id="11"/>
+                <Item title="User Manual Translation" id="12"/>
             </Grid>
 
             <hr />
