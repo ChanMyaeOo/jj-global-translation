@@ -25,7 +25,7 @@ const Languages = () => {
                 }
             </Grid>
 
-            <img src={SmallLogo} alt="logo" className={classes.languagesSmLogo} />
+            <Link to="/"><img src={SmallLogo} alt="logo" className={classes.languagesSmLogo} /></Link>
         </div>
     )
 }
