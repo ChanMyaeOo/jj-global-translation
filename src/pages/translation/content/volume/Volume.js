@@ -65,8 +65,10 @@ const Volume = () => {
 
                 <h3>I want to know more about the translation services you offer in the UK.</h3>
                 <p>Great! We can't wait to hear from you! Call or email us now, and one of our project managers will be glad to answer your questions.</p>
-
-                <Link to="/"><img src={SmallLogo} alt="logo" className={classes.volumeLogo} /></Link>
+                    
+                <div className={classes.volumeLogoWrap}>
+                    <Link to="/"><img src={SmallLogo} alt="logo" className={classes.volumeLogo} /></Link>
+                </div>
             </div>
         </>
     )

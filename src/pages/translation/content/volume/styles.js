@@ -64,12 +64,14 @@ const useStyles = makeStyles(theme => ({
             lineHeight: '1.5rem'
         }
     },
+    volumeLogoWrap: {
+        display: 'flex',
+        justifyContent: 'center'
+    },
     volumeLogo: {
         width: '75px',
         height: '75px',
-        margin: '0 auto',
         marginTop: '35px',
-        display: 'block',
     },
     [theme.breakpoints.down('xs')]: {
         volumeQuote: {
