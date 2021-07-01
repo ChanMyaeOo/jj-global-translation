@@ -1,5 +1,6 @@
 {
   "name": "uktranslator",
+  "homepage": "https://jjglobaltranslation.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
