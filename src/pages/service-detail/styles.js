@@ -12,6 +12,7 @@ const useStyles = makeStyles((theme) => ({
         height: "300px",
         opacity: "0.8",
         marginRight: "20px",
+        marginBottom: '25px'
     },
     quote: {
         float: "right",

@@ -14,6 +14,7 @@ import Services from './pages/services/Services'
 import Contact from './pages/contact/Contact'
 import ServiceDetail from './pages/service-detail/ServiceDetial'
 import LanguageDetail from './pages/language-detail/LanguageDetail'
+import TranslationDetail from './pages/translation-detail/TranslationDetail'
 import About from './pages/about/About'
 
 const App = () => {
@@ -48,6 +49,11 @@ const App = () => {
                 <Route exact path="/languages">
                     <Layout>
                         <Languages />
+                    </Layout>
+                </Route>
+                <Route path="/translation/:translationId">
+                    <Layout>
+                        <TranslationDetail />
                     </Layout>
                 </Route>
                 <Route path="/translation">

@@ -47,7 +47,7 @@ const Content = () => {
                 <div className={classes.selectionRight}>
                     <h3>Most Popular Language Pairs as of June 2021</h3>
                     <div className={classes.selectionItemWrap}>
-                        <Link to="/" className={classes.selectionItem}>English to Spanish Translation</Link>
+                        <Link to={`/translation/1`} className={classes.selectionItem}>English to Spanish Translation</Link>
                         <Link to="/" className={classes.selectionItem}>Spanish to English Translation</Link>
                     </div>
 

@@ -38,6 +38,8 @@ const useStyles = makeStyles(theme => ({
         outline: 'none',
         cursor: 'pointer',
         marginTop: '60px',
+        width: 'fit-content',
+        textDecoration: 'none',
         "&:hover": {
             backgroundColor: 'rgba(0,0,118,0.9)',
         }
