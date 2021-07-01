@@ -12,14 +12,14 @@ const useStyles = makeStyles((theme) => ({
         height: "300px",
         opacity: "0.8",
         marginRight: "20px",
-        marginBottom: '25px'
+        marginBottom: '55px'
     },
     quote: {
         float: "right",
         paddingLeft: "15px",
     },
     serviceDetail: {
-        marginBottom: "35px",
+        marginBottom: "65px",
         "& > h2": {
             fontSize: "32px",
             color: "rgba(0,0,0,0.80)",
