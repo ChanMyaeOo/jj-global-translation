@@ -31,11 +31,13 @@ const useStyles = makeStyles(theme => ({
             color: 'rgba(0,0,118,0.80)',
         }
     },
+    smallLogoWrapper: {
+        display: 'flex',
+        justifyContent: 'center',
+    },
     reviewLogo: {
         width: '75px',
         height: '75px',
-        display: 'block',
-        margin: '0 auto',
         marginTop: '30px'
     },
     reviewLink: {
