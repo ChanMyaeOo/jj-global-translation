@@ -48,6 +48,17 @@ const ServiceDetial = () => {
                             <li>{service.textList3}</li>
                             <li>{service.textList4}</li>
                             <li>{service.textList5}</li>
+                            {
+                                service.listUpd ? (
+                                    <>
+                                        <li>{service.listUpd}</li>
+                                        <li>{service.textList6}</li>
+                                        <li>{service.textList7}</li>
+                                    </>
+                                ) : (
+                                    <></>
+                                )
+                            }
                         </ul>
                     </>
                 ) : (

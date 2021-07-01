@@ -29,8 +29,7 @@ const Showcase = () => {
                 <Item title="Medical Translation" id="8"/>
                 <Item oddItem="oddItem" title="Interpreting Services" id="9"/>
                 <Item title="Standard Translation" id="10"/>
-                <Item oddItem="oddItem" title="Legal Translation" id="11"/>
-                <Item title="User Manual Translation" id="12"/>
+                <Item title="User Manual Translation" id="11"/>
             </Grid>
 
             <hr />
