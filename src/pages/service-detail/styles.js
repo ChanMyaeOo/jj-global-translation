@@ -45,6 +45,10 @@ const useStyles = makeStyles((theme) => ({
             lineHeight: "1.5rem",
         },
     },
+    moreAboutList: {
+        marginLeft: "25px",
+        lineHeight: "1.5rem",
+    },
     commonServices: {
         "& > h3": {
             color: "rgba(0,0,118,0.80)",
