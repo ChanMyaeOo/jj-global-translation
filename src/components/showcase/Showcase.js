@@ -1,5 +1,6 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid';
+import { Link } from 'react-router-dom'
 import useStyles from './styles'
 import Quote from '../../images/quote.webp'
 import Item from './item/Item'
@@ -12,7 +13,9 @@ const Showcase = () => {
 
             <p className={classes.showcaseContent}>Since 2010, Translator UK have been using carefully-selected translators in the United Kingdom and world-wide to service our international client base providing on-time, accurate and professional translated documents, contracts, certificates and much more.</p>
 
-            <img src={Quote} alt="quote" className={classes.quote} />
+            <Link to="/quote">
+                <img src={Quote} alt="quote" className={classes.quote} />
+            </Link>
             <p>Our translations are always performed by highly qualified translators that always translate into their mother tongue. This is of paramount importance to ensure that the translation reads as though a native speaker wrote the document originally. We started our company offering only Spanish to English translation and English to Spanish translation services, but now we are pleased to offer translations in virtually every other language.</p>
 
             <h3>Primary Translation Services</h3>

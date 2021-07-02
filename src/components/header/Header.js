@@ -34,9 +34,9 @@ const Header = () => {
                 </ul>
 
 
-                <button className={classes.headerBtn}>
+                <Link to="/quote" className={classes.headerBtn}>
                     Free Quotation
-                </button>
+                </Link>
             </div>
             <div className={classes.resMenu} id="res">
                 <ul>

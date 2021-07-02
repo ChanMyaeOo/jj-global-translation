@@ -37,6 +37,7 @@ const useStyles = makeStyles(theme => ({
         outline: 'none',
         cursor: 'pointer',
         padding: '15px',
+        textDecoration: 'none',
         "&:hover": {
             textDecoration: 'underline',
         }

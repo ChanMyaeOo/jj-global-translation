@@ -16,11 +16,17 @@ import ServiceDetail from './pages/service-detail/ServiceDetial'
 import LanguageDetail from './pages/language-detail/LanguageDetail'
 import TranslationDetail from './pages/translation-detail/TranslationDetail'
 import About from './pages/about/About'
+import QuoteForm from './pages/quote-form/QuoteForm'
 
 const App = () => {
     return (
          <Router>
             <Switch>
+                <Route path="/quote">
+                    <Layout>
+                        <QuoteForm />
+                    </Layout>
+                </Route>
                 <Route path="/about">
                     <Layout>
                         <About />
