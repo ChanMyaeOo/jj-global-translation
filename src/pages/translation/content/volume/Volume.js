@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Quote from '../../../../images/quote.webp'
 import Circle from '../../../../images/big-circle.webp'
-import SmallLogo from '../../../../images/small-logo.webp'
+import SmallLogo from '../../../../images/jj-logo.png'
 import useStyles from './styles'
 
 

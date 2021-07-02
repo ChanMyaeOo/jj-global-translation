@@ -43,6 +43,10 @@ const useStyles = makeStyles(theme => ({
             }
         }
     },
+    languageLogoWrap: {
+        display: 'flex',
+        justifyContent: 'center',
+    },  
     languagesSmLogo: {
         width: '75px',
         height: '75px',

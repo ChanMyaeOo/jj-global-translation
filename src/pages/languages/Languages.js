@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import useStyles from './styles'
 import Quote from '../../images/quote.webp'
 import { languagesData } from '../../data/languages'
-import SmallLogo from '../../images/small-logo.webp'
+import SmallLogo from '../../images/jj-logo.png'
 
 const Languages = () => {
     const classes = useStyles();
@@ -24,8 +24,9 @@ const Languages = () => {
                     ))
                 }
             </Grid>
-
-            <Link to="/"><img src={SmallLogo} alt="logo" className={classes.languagesSmLogo} /></Link>
+            <div className={classes.languageLogoWrap}>                
+                <Link to="/"><img src={SmallLogo} alt="logo" className={classes.languagesSmLogo} /></Link>
+            </div>
         </div>
     )
 }
