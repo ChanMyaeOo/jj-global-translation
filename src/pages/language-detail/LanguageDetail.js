@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { Grid } from '@material-ui/core'
+// import { Grid } from '@material-ui/core'
 import { Link } from 'react-router-dom'
 import { languagesData } from '../../data/languages'
 import useStyles from './styles'
@@ -20,23 +20,24 @@ const LanguageDetail = () => {
                 className={classes.documentImg}
             />
             <div className={classes.languageDetail}>
-                <h2>Arabic Translation Agency in the UK</h2>
+                <h2>{language.text1}</h2>
                 <h3>
-                    Details of the Arabic translation services provided by professional Arabic translators based in the United Kingdom via Translator UK.
+                    {language.text2}
                 </h3>
                 <img src={Quote} alt="quote" className={classes.quote} />
                 <p>
-                    If you are looking for a professional Arabic translation agency, then you have come to the right place. Translator UK has been working with many of the United Kingdom's best Arabic translators since 2010.
+                    {language.text3}
                 </p>
                 <br />
                 <p>
-                   As a professional Arabic translation agency in the United Kingdom, we are able to hand-pick the most qualified Arabic translators for your translation project, which means that we can offer you the lowest price for the best Arabic translation possible.
+                   {language.text4}
                 </p>
                 <br />
-                <p>We also provide a free quotation for all of our Arabic translations; therefore, you can compare the costs of our services against our competitors quickly and without commitment.</p>
+                <p>{language.text5}</p>
             </div>
             <hr />
 
+            {/* 
             <div className={classes.comLanguageTrans}>
                 <h3>Common Arabic Translation Services offered by Translator UK</h3>
                 <p>Our team of experienced Arabic translators will work with you to deliver whatever type of translation you require.</p>
@@ -69,35 +70,37 @@ const LanguageDetail = () => {
                 </Grid>
                 <hr />
             </div>
+            */}
 
             <div className={classes.languageReview}>
-                <h3>Arabic Translation Agency Reviews</h3>
+                <h3>{language.langName} Translation Agency Reviews</h3>
                 <div className={classes.reviewHeader}>
                     <Link to="/" className={classes.languageStar}>★ ★ ★ ★ ☆</Link>
-                    <p>In the past year, Translator UK has been working with many clients providing Arabic translation services and we have received 65 reviews across various review-channels for the Arabic translator's work. As of the 1st of Jul, 2021, the overall rating for our Arabic translation services was 4.6 out of 5 stars. If you have used our Arabic translation services and would like to leave a review for other would-be clients to see, please see: Review Translator UK.</p>
+                    <p>{language.text6} <Link to="/" className={classes.reviewTranslator}>Review Translator UK.</Link></p>
 
                 </div>
             </div>
 
             <div className={classes.rightBox}>
-                <h3>Arabic Translators Qualifications</h3>
-                <p>All of our Arabic translators have been thoroughly vetted and have at a bare minimum the following qualifications:</p>
+                <h3>{language.langName} Translators Qualifications</h3>
+                <p>All of our {language.langName} translators have been thoroughly vetted and have at a bare minimum the following qualifications:</p>
                 <ul>
                     <li>University educated in translation</li>
-                    <li>Native Arabic speakers</li>
-                    <li>Experienced with the subject matter of your Arabic text</li>
-                    <li>Accredited by one or more translation institutes for their previous Arabic translation experience</li>
-                    <li>References from other Arabic translation agencies</li>
+                    <li>Native {language.langName} speakers</li>
+                    <li>Experienced with the subject matter of your {language.langName} text</li>
+                    <li>Accredited by one or more translation institutes for their previous {language.langName} translation experience</li>
+                    <li>References from other {language.langName} translation agencies</li>
                 </ul>
             </div>
 
             <div className={classes.leftBox}>
-                <h3>Arabic Translator Jobs</h3>
-                <p>If you are a qualified Arabic translator that has a university degree in translation and are not yet registered with us, we would be delighted to hear from you. Simply email your CV and references to translatorcv@translatoruk.co.uk and our HR department will be in touch with you shortly thereafter.</p>
+                <h3>{language.langName} Translator Jobs</h3>
+                <p>If you are a qualified {language.langName} translator that has a university degree in translation and are not yet registered with us, we would be delighted to hear from you. Simply email your CV and references to translatorcv@translatoruk.co.uk and our HR department will be in touch with you shortly thereafter.</p>
                 <Link to="/" className={classes.envelop}>✉</Link>
             </div>
-            <hr />
 
+            {/* 
+            <hr />
             <div className={classes.moreAboutLang}>
                 <h3>More about the Arabic Language</h3>
                 <h4>History of Arabic</h4>
@@ -131,6 +134,7 @@ const LanguageDetail = () => {
                     </li>
                 </ul>
             </div>
+            */}
             <div className={classes.smallLogoWrap}>
                 <Link to="/">
                     <img src={SmallLogo} alt="logo" className={classes.smallLogo} />

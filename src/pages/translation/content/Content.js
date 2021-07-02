@@ -47,23 +47,23 @@ const Content = () => {
                 <div className={classes.selectionRight}>
                     <h3>Most Popular Language Pairs as of June 2021</h3>
                     <div className={classes.selectionItemWrap}>
-                        <Link to={`/translation/1`} className={classes.selectionItem}>English to Spanish Translation</Link>
-                        <Link to="/" className={classes.selectionItem}>Spanish to English Translation</Link>
+                        <Link to="#" className={classes.selectionItem}>English to Spanish Translation</Link>
+                        <Link to="#" className={classes.selectionItem}>Spanish to English Translation</Link>
                     </div>
 
                     <div className={classes.selectionItemWrap}>
-                        <Link to="/" className={classes.selectionItem}>English to French Translation</Link>
-                        <Link to="/" className={classes.selectionItem}>French to English Translation</Link>
+                        <Link to="#" className={classes.selectionItem}>English to French Translation</Link>
+                        <Link to="#" className={classes.selectionItem}>French to English Translation</Link>
                     </div>
 
                     <div className={classes.selectionItemWrap}>
-                        <Link to="/" className={classes.selectionItem}>English to Russian Translation</Link>
-                        <Link to="/" className={classes.selectionItem}>Russian to English Translation</Link>
+                        <Link to="#" className={classes.selectionItem}>English to Russian Translation</Link>
+                        <Link to="#" className={classes.selectionItem}>Russian to English Translation</Link>
                     </div>
 
                     <div className={classes.selectionItemWrap}>
-                        <Link to="/" className={classes.selectionItem}>English to Arabic Translation</Link>
-                        <Link to="/" className={classes.selectionItem}>Arabic to English Translation</Link>
+                        <Link to="#" className={classes.selectionItem}>English to Arabic Translation</Link>
+                        <Link to="#" className={classes.selectionItem}>Arabic to English Translation</Link>
                     </div>
                 </div>
             </div>

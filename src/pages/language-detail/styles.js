@@ -147,6 +147,15 @@ const useStyles = makeStyles((theme) => ({
         textDecoration: 'none',
     },
 
+    reviewTranslator: {
+        textDecoration: 'none',
+        color: 'rgba(0,0,118,0.80)',
+        fontWeight: 'bold',
+        "&:hover": {
+            textDecoration: 'underline',
+        }
+    },
+
     moreAboutLang: {
         "& > h3": {
             fontSize: '20.8px',
