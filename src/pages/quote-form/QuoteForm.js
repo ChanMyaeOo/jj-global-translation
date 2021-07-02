@@ -17,7 +17,7 @@ const QuoteForm = () => {
                 <input type="text" placeholder="Your telephone number..." />
                 <input type="text" placeholder="Language of your existing document..." />
                 <input type="text" placeholder="Language(s) to be translated into..." />
-                <input type="file" />
+                <input type="file" className={classes.quoteFile} />
                 <p>Note that we can only handle uploading one file via this form. If you have more than one file to send us, either add them to a zip file and upload the zip file, or email us the documents instead to <strong>info@translatoruk.co.uk</strong></p>
                 <textarea placeholder="Additional information..."></textarea>
                 <button>Request Quote</button>

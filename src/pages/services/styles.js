@@ -54,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
         },
         "& > p": {
             lineHeight: '1.5rem',
-            marginBottom: '120px'
+            marginBottom: '30px'
         }
     },
     [theme.breakpoints.down("xs")]: {

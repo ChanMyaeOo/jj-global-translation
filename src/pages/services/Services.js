@@ -30,7 +30,6 @@ const Services = () => {
 
             <div className={classes.servicesPrices}>
                 <h3>Translation Service Prices</h3>
-                <img src={Quote} alt="quote" />
                 <p>Here at Translator UK we are pleased to offer a no-commitment quotation for translation projects no matter how big or small. One of our expert project managers will discuss your needs and work to find you the best possible price for translation considering your timeline.</p>
             </div>
             <hr />

@@ -54,6 +54,9 @@ const useStyles = makeStyles((theme) => ({
             margin: '15px 0'
         }
     },
+    quoteFile: {
+        maxWidth: '190px'
+    },
     [theme.breakpoints.down('xs')]: {
         quoteFormHeader: {
             "& > h2": {

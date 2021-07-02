@@ -48,6 +48,7 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.down('xs')]: {
         translation: {
             paddingBottom: '2px',
+            height: 'auto',
             "& h1": {
                 fontSize: '20.8px',
                 textAlign: 'left',

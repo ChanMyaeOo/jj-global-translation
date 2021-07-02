@@ -28,7 +28,9 @@ const Legal = () => {
                     <Link to="/">Legalised Translations</Link>
                 </div>
 
-                <img src={Quote} alt="quote" className={classes.legalQuote} />
+                <Link to="/quote">
+                    <img src={Quote} alt="quote" className={classes.legalQuote} />
+                </Link>
 
                 <p style={{ lineHeight: '1.5rem'}}>This is usually for translations going into English and the documents are for use in the UK or any other English-speaking country.</p>
 

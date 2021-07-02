@@ -12,7 +12,9 @@ const Volume = () => {
         <>
             <div className={classes.volume}>
                 <h3 className={classes.volumeTitle}>Volume of Translation Possible</h3>
-                <img src={Quote} alt="quote" className={classes.volumeQuote} />
+                <Link to="/quote">
+                    <img src={Quote} alt="quote" className={classes.volumeQuote} />
+                </Link>
                 <p>This varies greatly depending on the language pair involved quite simply as this relates directly to supply and demand. As an example, we have previously translated over 200,000 words in one day from Spanish to English (although this is of course not recommended), yet we were unable to translate 50,000 words from Finnish to Japanese within the same day. Our company policy, in order to ensure the highest quality and consistency throughout all of the work, is to not give any one translator more than 2,500 words (varies for Asian languages) per day. If your project is small, it is always best to give us enough time to perform the work with this limit in mind. Otherwise, we utilise a series of translators, appointing one to act as “lead” (who coordinates with the others to develop a working glossary for continuity of terminology throughout the document(s) and then to proof-read the entire text from all translators). The lead translator will always be available for follow-up both with us and with the client direct for any Q&amp;A needed.</p>
             </div>
 

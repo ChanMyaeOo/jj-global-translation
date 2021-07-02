@@ -28,7 +28,9 @@ const Contact = () => {
 
             <div className={classes.contactForm}>
                 <h3>Contact Form</h3>
-                <img src={Quote} alt="quote" className={classes.contactQuote} />
+                <Link to="/quote">
+                    <img src={Quote} alt="quote" className={classes.contactQuote} />
+                </Link>
                 <p>Please use the below form to contact us regarding any of our translation services, if you would like to speak directly with a project manager, our accounts department or public relations. If you are in search of a translation quotation, please select "Get your free online quote today":</p>
 
                 <form className={classes.contactFormWrap}>

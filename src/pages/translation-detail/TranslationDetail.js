@@ -1,8 +1,8 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 import { Grid } from '@material-ui/core'
 import { Link } from 'react-router-dom'
-import { translationsData } from "../../data/translations";
+// import { useParams } from "react-router-dom";
+// import { translationsData } from "../../data/translations";
 import useStyles from "./styles";
 import DocumentImg from '../../images/big-document.webp'
 import Quote from '../../images/quote.webp'
@@ -10,10 +10,10 @@ import Review from '../../components/review/Review'
 
 const TranslationDetail = () => {
     const classes = useStyles();
-    const { translationId } = useParams();
-    const translation = translationsData.find(
-        (data) => data.id === translationId
-    );
+    // const { translationId } = useParams();
+    // const translation = translationsData.find(
+    //     (data) => data.id === translationId
+    // );
     return (
         <div className={classes.transDetailWrap}>
             <img
