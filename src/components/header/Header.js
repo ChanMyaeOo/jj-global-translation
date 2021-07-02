@@ -47,7 +47,7 @@ const Header = () => {
                     <Link to="/legal-translation" onClick={closeMenu}><li>Legal Translation</li></Link>
                     <Link to="/languages" onClick={closeMenu}><li>Languages</li></Link>
                     <Link to="/services" onClick={closeMenu}><li>Services</li></Link>
-                    <Link to="/contact" onClick={closeMenu}><li>Contact</li></Link>
+                    <Link to="/contact" onClick={closeMenu} ><li className={classes.lastList}>Contact</li></Link>
                 </ul>
             </div>
         </div>

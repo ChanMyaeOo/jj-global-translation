@@ -12,20 +12,20 @@ const useStyles = makeStyles(theme => ({
     nav: {
         listStyle: 'none',
         display: 'flex',
-        justifyContent: 'flex-start',
+        justifyContent: 'space-between',
         marginLeft: '30px',
         flexGrow: 1,
         "& a": {
             textDecoration: 'none'
         },
         "& li": {
-            color: 'rgb(0 0 118 / 80%)',
-            fontSize: '95%',
+            color: '#000',
+            fontSize: '17px',
             padding: '15px'
         },
         "& li:hover": {
             cursor: 'pointer',
-            background: 'rgba(0,0,118,0.20)'
+            background: '#f2f2f2'
         }
     },
     headerBtn: {
@@ -38,6 +38,7 @@ const useStyles = makeStyles(theme => ({
         cursor: 'pointer',
         padding: '15px',
         textDecoration: 'none',
+        marginLeft: "40px",
         "&:hover": {
             textDecoration: 'underline',
         }
@@ -80,21 +81,24 @@ const useStyles = makeStyles(theme => ({
             zIndex: '1000',
             overflowX: 'hidden',
             "& a": {
-                textDecoration: 'none'
+                textDecoration: 'none',
+                color: '#000',
+                fontSize: '16px'
             },
             "& > ul": {
                 listStyle: 'none',
-                color: 'rgb(0 0 118 / 80%)',
                 lineHeight: '30px'
             },
             "& li": {
                 padding: '20px',
-                borderTop: '1px solid rgb(0 0 118 / 80%)',
-                borderBottom: '1px solid rgb(0 0 118 / 80%)',
+                borderTop: '1px solid #000',
                 minHeight: '26px',
                 width: '100%',
                 paddingLeft: '100px',
             }
+        },
+        lastList: {
+            borderBottom: '1px solid #000',
         }
     }
 }))

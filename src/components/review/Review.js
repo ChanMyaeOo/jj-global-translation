@@ -6,7 +6,7 @@ import useStyles from './styles'
 const Review = () => {
     const classes = useStyles();
     return (
-        <div>
+        <div className={classes.reviewWrapper}>
             <div className={classes.review}>
                 <div className={classes.leftReview}>
                     <h3>Translator UK Translation Agency Reviews</h3>

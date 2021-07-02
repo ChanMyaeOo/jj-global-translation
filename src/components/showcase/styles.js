@@ -21,7 +21,8 @@ const useStyles = makeStyles(theme => ({
     showcaseService: {
         width: '73vw',
         marginTop: '25px',
-        marginBottom: '40px'
+        marginBottom: '40px',
+        maxWidth: '1280px'
     },
 
     [theme.breakpoints.down('xs')]: {

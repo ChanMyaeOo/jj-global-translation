@@ -20,7 +20,7 @@ const useStyles = makeStyles(theme => ({
     },
     qualityText: {
         marginTop: '20px',
-        paddingBottom: '30px'
+        paddingBottom: '45px'
     },
     [theme.breakpoints.down('xs')]: {
         circle: {

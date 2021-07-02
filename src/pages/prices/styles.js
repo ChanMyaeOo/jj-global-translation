@@ -27,7 +27,8 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     priceTitle: {
-        width: "67vw",
+        // width: "67vw",
+        width: '100%',
         marginLeft: "40px",
         "& h3": {
             fontSize: "19.2px",

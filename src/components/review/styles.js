@@ -1,6 +1,10 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(theme => ({
+    reviewWrapper: {
+        maxWidth: '1280px',
+        margin: '0 auto'
+    },
     review: {
         display: 'flex',
         width: '95vw',
