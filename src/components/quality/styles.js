@@ -5,7 +5,7 @@ const useStyles = makeStyles(theme => ({
         float: 'right',
         width: '200px',
         height: '200px',
-        marginLeft: '35px'
+        marginLeft: '5px'
     },
     qualitySection: {
         width: '95vw',
