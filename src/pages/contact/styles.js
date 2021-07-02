@@ -96,7 +96,8 @@ const useStyles = makeStyles((theme) => ({
             height: '160px',
             marginBottom: '10px',
             padding: '10px',
-            maxWidth: 'inherit'
+            maxWidth: 'inherit',
+            fontFamily: 'Lato'
         },
         "& > button": {
             height: '40px',
