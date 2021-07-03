@@ -1,13 +1,14 @@
 import { makeStyles } from '@material-ui/core/styles';
 import HeroImg from '../../images/translation.jpg'
+import TransImg from '../../images/jj-translation.jpg'
 
 const useStyles = makeStyles(theme => ({
     translation: {
-        background: `linear-gradient( rgba(255, 255, 255, 0.1) 100%, rgba(0, 0, 0, 0.1) 100%),url(${HeroImg})`,
+        background: `linear-gradient( rgba(255, 255, 255, 0.1) 100%, rgba(0, 0, 0, 0.1) 100%),url(${TransImg})`,
         backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
+        backgroundSize: 'contain',
         backgroundPosition: "center center",
-        paddingBottom: '40px',
+        paddingBottom: '20px',
         height: '470px',
         "& h1": {
             textAlign: 'center',
@@ -48,7 +49,7 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.down('xs')]: {
         translation: {
             paddingBottom: '2px',
-            height: 'auto',
+            height: '160px',
             "& h1": {
                 fontSize: '20.8px',
                 textAlign: 'left',

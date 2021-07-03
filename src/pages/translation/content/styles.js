@@ -6,6 +6,7 @@ const useStyles = makeStyles(theme => ({
         maxWidth: '1280px',
         margin: '50px auto',
         marginBottom: '25px',
+        marginTop: '20px',
         "& > p": {
             lineHeight: '1.5rem'       
         }
