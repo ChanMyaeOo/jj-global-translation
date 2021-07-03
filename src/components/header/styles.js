@@ -8,6 +8,7 @@ const useStyles = makeStyles(theme => ({
         width: '95vw',
         maxWidth: '1280px',
         margin: '0 auto',
+        marginBottom: '24px'
     },
     nav: {
         listStyle: 'none',

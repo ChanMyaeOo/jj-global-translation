@@ -1,7 +1,7 @@
 import React from 'react'
 import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'react-router-dom'
-import Logo from '../../images/jj-logo.png'
+import Logo from '../../images/jj-logo-md.png'
 import useStyles from './styles'
 
 

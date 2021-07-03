@@ -69,9 +69,9 @@ const useStyles = makeStyles(theme => ({
         justifyContent: 'center'
     },
     volumeLogo: {
-        width: '100px',
-        height: '100px',
-        marginTop: '35px',
+        width: '130px',
+        height: '130px',
+        marginTop: '15px',
     },
     [theme.breakpoints.down('xs')]: {
         volumeQuote: {

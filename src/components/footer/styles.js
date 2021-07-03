@@ -27,7 +27,7 @@ const useStyles = makeStyles(theme => ({
             listStyle: 'none',
         },
         "& li a": {
-            color: 'rgba(0,0,118,0.80)',
+            color: '#000',
             fontSize: '15px',
             textDecoration: 'none',
             "&:hover": {
@@ -47,7 +47,7 @@ const useStyles = makeStyles(theme => ({
     footerIcon: {
         width: '50px',
         height: '50px',
-        margin: '0 10px',
+        margin: '0 25px',
         opacity: '0.5',
         "&:hover": {
             opacity: '0.9'

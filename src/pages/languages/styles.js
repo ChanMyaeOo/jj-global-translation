@@ -48,8 +48,8 @@ const useStyles = makeStyles(theme => ({
         justifyContent: 'center',
     },  
     languagesSmLogo: {
-        width: '100px',
-        height: '100px',
+        width: '130px',
+        height: '130px',
         display: 'block',
         margin: '20px auto'
     },

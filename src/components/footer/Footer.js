@@ -34,12 +34,9 @@ const Footer = () => {
                 </ul>
 
                 <div className={classes.footerIcons}>
-                    <Link to="/"><Linkedin className={classes.footerIcon} /></Link>
-                    <Link to="/"><Twitter className={classes.footerIcon} /></Link>
-                    <Link to="/"><Facebook className={classes.footerIcon} /></Link>
-                    <Link to="/"><Youtube className={classes.footerIcon} /></Link>
-                    <Link to="/"><img src={Trustpilot} className={classes.footerIcon} alt="trustpilot"/></Link>
-                    <Link to="/"><GoogleMaps className={classes.footerIcon} /></Link>
+                    <a href="https://www.linkedin.com/in/jj-global-translation-a63836215/" target="_blank"><Linkedin className={classes.footerIcon} /></a>
+                    <a href="https://www.youtube.com/channel/UClv4tsKCkVrgGL4Ce8Kg7kw" target="_blank"><Youtube className={classes.footerIcon} /></a>
+                    <a href="https://www.facebook.com/JJ-Global-Translation-112278091111654" target="_blank"><Facebook className={classes.footerIcon} /></a>
 
                 </div>
             </div>

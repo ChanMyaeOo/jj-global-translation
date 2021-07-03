@@ -40,9 +40,9 @@ const useStyles = makeStyles(theme => ({
         justifyContent: 'center',
     },
     reviewLogo: {
-        width: '100px',
-        height: '100px',
-        marginTop: '30px'
+        width: '130px',
+        height: '130px',
+        marginTop: '10px'
     },
     reviewLink: {
         fontWeight: 'bold',
