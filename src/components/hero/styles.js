@@ -1,6 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
-import HeroImg from "../../images/uk-hero.webp";
-import TransImg from "../../images/translation.jpg";
+import CompHeroImg from '../../images/jj-hero.jpg'
 
 const useStyles = makeStyles((theme) => ({
     heroWrap: {
@@ -37,10 +36,11 @@ const useStyles = makeStyles((theme) => ({
         alignItems: "center",
     },
     rightContent: {
-        background: `linear-gradient( rgba(255, 255, 255, 0.1) 100%, rgba(0, 0, 0, 0.1) 100%),url(${HeroImg})`,
+        // background: `linear-gradient( rgba(255, 255, 255, 0.1) 100%, rgba(0, 0, 0, 0.1) 100%),url(${CompHeroImg})`,
+        backgroundImage: `url(${CompHeroImg})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
-        backgroundPosition: "center center",
+        backgroundPosition: "center -20px",
         width: "100%",
         minHeight: "360px",
 
@@ -78,7 +78,7 @@ const useStyles = makeStyles((theme) => ({
     },
     [theme.breakpoints.down('xs')]: {
         heroWrap: {
-            height: '170px',
+            maxHeight: '240px',
             marginBottom: '30px'
         },
         compVideoWrap: {
@@ -89,7 +89,9 @@ const useStyles = makeStyles((theme) => ({
             alignItems: 'flex-start'
         },
         rightContent: {
-            minHeight: 'auto'
+            minHeight: '100%',
+            backgroundPosition: 'center 0',
+            minHeight: "240px",
         },
 
         heroTitle: {
