@@ -45,8 +45,8 @@ const useStyles = makeStyles(theme => ({
         paddingRight: '40px'
     },
     footerIcon: {
-        width: '70px',
-        height: '70px',
+        width: '50px',
+        height: '50px',
         margin: '0 10px',
         opacity: '0.5',
         "&:hover": {
