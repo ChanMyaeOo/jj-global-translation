@@ -5,7 +5,6 @@ const useStyles = makeStyles(theme => ({
         width: '95vw',
         maxWidth: '1280px',
         margin: '0 auto',
-        marginTop: '55px',
         lineHeight: '1.5rem',
         "& > h3": {
             margin: "15px 0",
