@@ -15,12 +15,12 @@ const Contact = () => {
 
             <div className={classes.contactAddress}>
                 <Link to="/" className={classes.contactEmail}>
-                    <div>info@translatoruk.co.uk</div>
+                    <div>info@jjglobaltranslation.com</div>
                     <p>✉</p>
                 </Link>
 
                 <Link to="/" className={classes.contactPhone}>
-                    <div>+44 207 993 4894</div>
+                    <div>+442038387246</div>
                     <p>✆</p>
                 </Link>
             </div>

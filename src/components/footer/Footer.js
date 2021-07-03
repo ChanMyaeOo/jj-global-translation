@@ -13,10 +13,10 @@ const Footer = () => {
     return (
         <div className={classes.footer}>
             <div className={classes.copyright}>
-                <div className={classes.copyrightText}>© Copyright <strong>Translator UK</strong> - 2021</div>
-                <div className={classes.copyrightAddress}>London Translation Services Limited</div>
-                <div className={classes.copyrightAddress}>St. Vincent House, 30 Orange Street London, WC2H 7HF</div>
-                <div className={classes.copyrightAddress}>+44 207 993 4894</div>
+                <div className={classes.copyrightText}>© Copyright <strong>JJGlobaltranslation Limited</strong></div>
+                <div className={classes.copyrightAddress}>368 Caledonian Rd London N1 1DU</div>
+                <div className={classes.copyrightAddress}>info@jjglobaltranslation.com</div>
+                <div className={classes.copyrightAddress}>+442038387246</div>
             </div>
 
             <div className={classes.footerRight}>

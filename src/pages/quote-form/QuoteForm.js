@@ -18,12 +18,12 @@ const QuoteForm = () => {
                 <input type="text" placeholder="Language of your existing document..." />
                 <input type="text" placeholder="Language(s) to be translated into..." />
                 <input type="file" className={classes.quoteFile} />
-                <p>Note that we can only handle uploading one file via this form. If you have more than one file to send us, either add them to a zip file and upload the zip file, or email us the documents instead to <strong>info@translatoruk.co.uk</strong></p>
+                <p>Note that we can only handle uploading one file via this form. If you have more than one file to send us, either add them to a zip file and upload the zip file, or email us the documents instead to <strong>info@jjglobaltranslation.com</strong></p>
                 <textarea placeholder="Additional information..."></textarea>
                 <button>Request Quote</button>
             </form>
 
-            <p>The confidentiality of your enquiry and any files to Translator UK will be held in the strictest of confidence in line with the latest policies pertaining to GDPR. Submitting information on this page is acknowledgement that you accept our terms and conditions and our privacy policy as stated at: <Link to="/" className={classes.termAndCond}>Terms &amp; Conditions</Link></p>
+            <p>The confidentiality of your enquiry and any files to JJGlobal Translation will be held in the strictest of confidence in line with the latest policies pertaining to GDPR. Submitting information on this page is acknowledgement that you accept our terms and conditions and our privacy policy as stated at: <Link to="/" className={classes.termAndCond}>Terms &amp; Conditions</Link></p>
         </div>
     )
 }

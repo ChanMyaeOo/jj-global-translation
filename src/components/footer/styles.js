@@ -10,7 +10,8 @@ const useStyles = makeStyles(theme => ({
     },
     copyright: {
         maxWidth: '330px',
-        lineHeight: '1.3rem'
+        lineHeight: '1.3rem',
+        marginRight: '40px'
     },
     copyrightText: {
         fontSize: '16px',
@@ -58,7 +59,8 @@ const useStyles = makeStyles(theme => ({
             flexDirection: 'column'
         },
         copyright: {
-            textAlign: 'center'
+            textAlign: 'center',
+            marginRight: 0
         },
         footerIcons: {
             display: 'none'
