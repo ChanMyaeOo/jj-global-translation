@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import useStyles from "./styles";
 import CompanyVideo from '../../videos/jj-video.mp4'
 

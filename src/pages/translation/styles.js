@@ -1,5 +1,4 @@
 import { makeStyles } from '@material-ui/core/styles';
-import HeroImg from '../../images/translation.jpg'
 import TransImg from '../../images/jj-translation.jpg'
 
 const useStyles = makeStyles(theme => ({
@@ -27,25 +26,6 @@ const useStyles = makeStyles(theme => ({
             fontWeight: 'normal',
         }
     },
-    learnBtn: {
-        padding: '15px',
-        textAlign: 'center',
-        display: 'block',
-        margin: '0 auto',
-        fontWeight: 'bold',
-        fontSize: '1.5em',
-        backgroundColor: 'rgba(0,0,118,0.70)',
-        color: '#f2f2f2',
-        border: 'none',
-        outline: 'none',
-        cursor: 'pointer',
-        marginTop: '60px',
-        width: 'fit-content',
-        textDecoration: 'none',
-        "&:hover": {
-            backgroundColor: 'rgba(0,0,118,0.9)',
-        }
-    },
     [theme.breakpoints.down('xs')]: {
         translation: {
             paddingBottom: '2px',
@@ -64,11 +44,6 @@ const useStyles = makeStyles(theme => ({
                 maxWidth: '90vw'
             }
         },
-        learnBtn: {
-            fontSize: '16px',
-            padding: '10px',
-            marginTop: '15px'
-        }
     }
 }))
 

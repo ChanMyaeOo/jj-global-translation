@@ -3,7 +3,6 @@ import { Grid } from '@material-ui/core'
 import { Link } from 'react-router-dom'
 import useStyles from "./styles";
 import { servicesData } from '../../data/services'
-import Quote from '../../images/quote.webp'
 import Review from '../../components/review/Review'
 
 const Services = () => {

@@ -90,7 +90,6 @@ const useStyles = makeStyles((theme) => ({
             alignItems: 'flex-start'
         },
         rightContent: {
-            minHeight: '100%',
             backgroundPosition: 'center 0',
             minHeight: "240px",
         },

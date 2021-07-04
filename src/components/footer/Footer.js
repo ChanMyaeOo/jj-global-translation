@@ -2,10 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { ReactComponent as Linkedin } from '../../images/linkedin.svg'
 import { ReactComponent as Facebook } from '../../images/facebook.svg'
-import { ReactComponent as GoogleMaps } from '../../images/google-maps.svg'
-import { ReactComponent as Twitter } from '../../images/twitter.svg'
 import { ReactComponent as Youtube } from '../../images/youtube.svg'
-import Trustpilot from '../../images/trustpilot.png'
 import useStyles from './styles'
 
 const Footer = () => {
@@ -34,9 +31,9 @@ const Footer = () => {
                 </ul>
 
                 <div className={classes.footerIcons}>
-                    <a href="https://www.linkedin.com/in/jj-global-translation-a63836215/" target="_blank"><Linkedin className={classes.footerIcon} /></a>
-                    <a href="https://www.youtube.com/channel/UClv4tsKCkVrgGL4Ce8Kg7kw" target="_blank"><Youtube className={classes.footerIcon} /></a>
-                    <a href="https://www.facebook.com/JJ-Global-Translation-112278091111654" target="_blank"><Facebook className={classes.footerIcon} /></a>
+                    <a href="https://www.linkedin.com/in/jj-global-translation-a63836215/" target="_blank" rel="noreferrer"><Linkedin className={classes.footerIcon} /></a>
+                    <a href="https://www.youtube.com/channel/UClv4tsKCkVrgGL4Ce8Kg7kw" target="_blank" rel="noreferrer"><Youtube className={classes.footerIcon} /></a>
+                    <a href="https://www.facebook.com/JJ-Global-Translation-112278091111654" target="_blank" rel="noreferrer"><Facebook className={classes.footerIcon} /></a>
 
                 </div>
             </div>
