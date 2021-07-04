@@ -1,6 +1,6 @@
 import React from "react";
 import useStyles from "./styles";
-import CompanyVideo from '../../videos/jj-video.mp4'
+import ServiceImg from '../../images/services.jpg'
 
 const Hero = () => {
     const classes = useStyles();
@@ -8,9 +8,9 @@ const Hero = () => {
         <div className={classes.heroWrap}>
 
             <div className={classes.compVideoWrap}>
-                <video autoPlay="autoPlay" muted loop className={classes.compVideo}>
+                <video autoPlay="autoPlay" muted loop className={classes.compVideo} poster={ServiceImg}>
                     <source
-                        src={CompanyVideo}
+                        src=""
                         type="video/mp4"
                     />
                 </video>

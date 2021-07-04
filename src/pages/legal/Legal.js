@@ -12,7 +12,7 @@ const Legal = () => {
     return (
         <>
             <div className={classes.legal}>
-                <YoutubeEmbed embedId="4_iQ3t6VNd4" />
+                <YoutubeEmbed embedId="oTiovAM6wLI" />
 
                 <div className={classes.legalWrap}>
                     <div className={classes.legalTitleWrap}>
