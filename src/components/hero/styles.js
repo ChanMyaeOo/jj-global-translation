@@ -1,5 +1,6 @@
 import { makeStyles } from "@material-ui/core/styles";
-import CompHeroImg from '../../images/jj-hero.jpg'
+// import CompHeroImg from '../../images/jj-hero.jpg'
+import CompHeroImg from '../../images/hero-logo.jpg'
 
 const useStyles = makeStyles((theme) => ({
     heroWrap: {

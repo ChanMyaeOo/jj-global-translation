@@ -55,7 +55,7 @@ const useStyles = makeStyles(theme => ({
             height: '101px'
         },
         headerLogo: {
-            width: '65%'
+            width: '55%'
         },
         menu: {
             display: 'block',
