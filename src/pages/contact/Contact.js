@@ -6,18 +6,15 @@ import Quote from "../../images/quote.webp";
 
 const Contact = () => {
     const classes = useStyles();
-    // for clear file input
-    let randomString = Math.random().toString(36);
+    
     const [formData, setFormData] = useState({
         user_name: "",
         user_email: "",
         user_phone: "",
         message: "",
-        theInputKey: randomString
     });
 
     const handleChange = (e) => {
-        console.log(e.target.value)
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
@@ -92,8 +89,7 @@ const Contact = () => {
                     please select "Get your free online quote today":
                 </p>
 
-                <form className={classes.contactFormWrap} encType="multipart/form-data" method="post" onSubmit={sendMail}>
-                    <input type="file" name="my_file" key={formData.theInputKey || '' } /> 
+                <form className={classes.contactFormWrap} onSubmit={sendMail}>
     
                     <input
                         type="text"

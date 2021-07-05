@@ -101,7 +101,10 @@ const useStyles = makeStyles((theme) => ({
         },
         "& > button": {
             height: '40px',
-            padding: '10px'
+            padding: '10px',
+            "&:hover": {
+                cursor: 'pointer'
+            }
         }
     },
     [theme.breakpoints.down('xs')]: {
