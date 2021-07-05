@@ -1,29 +1,33 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { send } from "emailjs-com";
+import emailjs from "emailjs-com";
 import useStyles from "./styles";
 import Quote from "../../images/quote.webp";
 
 const Contact = () => {
     const classes = useStyles();
+    // for clear file input
+    let randomString = Math.random().toString(36);
     const [formData, setFormData] = useState({
         user_name: "",
         user_email: "",
         user_phone: "",
         message: "",
+        theInputKey: randomString
     });
 
     const handleChange = (e) => {
+        console.log(e.target.value)
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
-    function sendEmail(e) {
+    function sendMail(e) {
         e.preventDefault();
 
-        send(
+        emailjs.sendForm(
             "service_eaw9okn",
             "contact_form",
-            formData,
+            e.target,
             "user_zQ9il5a0ZaD0tcl6PUzMs"
         ).then(
             (result) => {
@@ -38,6 +42,7 @@ const Contact = () => {
             },
             (error) => {
                 console.log(error.text);
+                alert('Error')
             }
         );
     }
@@ -87,7 +92,9 @@ const Contact = () => {
                     please select "Get your free online quote today":
                 </p>
 
-                <form className={classes.contactFormWrap} onSubmit={sendEmail}>
+                <form className={classes.contactFormWrap} encType="multipart/form-data" method="post" onSubmit={sendMail}>
+                    <input type="file" name="my_file" key={formData.theInputKey || '' } /> 
+    
                     <input
                         type="text"
                         placeholder="Your name..."

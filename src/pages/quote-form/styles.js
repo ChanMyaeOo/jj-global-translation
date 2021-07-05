@@ -51,7 +51,10 @@ const useStyles = makeStyles((theme) => ({
         },
         "& > button": {
             padding: '10px',
-            margin: '15px 0'
+            margin: '15px 0',
+            "&:hover": {
+                cursor: 'pointer'
+            }
         }
     },
     quoteFile: {
