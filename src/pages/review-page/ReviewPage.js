@@ -12,17 +12,17 @@ const ReviewPage = () => {
     return (
         <div className={classes.reviewPageWrap}>
             <div className={classes.reviewPage}>
-                <h2>Review Translator UK Agency</h2>
+                <h2>Review JJ Global Translation Agency</h2>
                 <h3>
                     Details on how to submit a review for translation or related
-                    services provided by Translator UK: Translation Agency
+                    services provided by JJ Global Translation: Translation Agency
                 </h3>
                 <p>
                     We rely heavily on the recommendations we receive from our
                     clients as most internet-based businesses do, and your
                     honest and candid opinion of our services is not only
                     greatly appreciated, but will help us to ensure that
-                    Translator UK continues to grow and service our clients to
+                    JJ Global Translation continues to grow and service our clients to
                     the highest standard on an ongoing basis.
                 </p>
                 <br />
@@ -34,13 +34,13 @@ const ReviewPage = () => {
                             <Link to="/">
                                 <GoogleMaps className={classes.gmaps} />
                             </Link>
-                            <p>Review Translator UK on Google</p>
+                            <p>Review JJ Global Translation on Google</p>
                         </div>
                         <div className={classes.yelpWrap}>
                             <Link to="/">
                                 <Yelp className={classes.yelp} />
                             </Link>
-                            <p>Review Translator UK on Yelp</p>
+                            <p>Review JJ Global Translation on Yelp</p>
                         </div>
                     </div>
 
@@ -49,14 +49,14 @@ const ReviewPage = () => {
                             <Link to="/">
                                 <Facebook className={classes.facebook} />
                             </Link>
-                            <p>Review Translator UK on Facebook</p>
+                            <p>Review JJ Global Translation on Facebook</p>
                         </div>
                         <div className={classes.trustpilotWrap}>
                             <Link to="/">
                                 <TrustpilotSvg className={classes.trustpilotSvg}/>
                                 <img src={Trustpilot} alt="trustpilot" className={classes.trustpilot}/>
                             </Link>
-                            <p>Review Translator UK on Trust Pilot</p>
+                            <p>Review JJ Global Translation on Trust Pilot</p>
                         </div>
                     </div>
                 </div>

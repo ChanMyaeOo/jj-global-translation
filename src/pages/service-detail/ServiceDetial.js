@@ -79,32 +79,32 @@ const ServiceDetial = () => {
                         <br />
                         <Grid container className={classes.comServiceGrid}>
                             <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
-                                <Link to="/" className={classes.comServiceItem}>
+                                <Link to="/languages/11" className={classes.comServiceItem}>
                                     French Document Translations
                                 </Link>
                             </Grid>
                             <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
-                                <Link to="/" className={classes.comServiceItem}>
+                                <Link to="/languages/1" className={classes.comServiceItem}>
                                     Arabic Document Translations
                                 </Link>
                             </Grid>
                             <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
-                                <Link to="/" className={classes.comServiceItem}>
+                                <Link to="/languages/13" className={classes.comServiceItem}>
                                     German Document Translations
                                 </Link>
                             </Grid>
                             <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
-                                <Link to="/" className={classes.comServiceItem}>
+                                <Link to="/languages/6" className={classes.comServiceItem}>
                                     Dutch Document Translations
                                 </Link>
                             </Grid>
                             <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
-                                <Link to="/" className={classes.comServiceItem}>
+                                <Link to="/languages/18" className={classes.comServiceItem}>
                                     Italian Document Translations
                                 </Link>
                             </Grid>
                             <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
-                                <Link to="/" className={classes.comServiceItem}>
+                                <Link to="/languages/3" className={classes.comServiceItem}>
                                     Chinese Document Translations
                                 </Link>
                             </Grid>

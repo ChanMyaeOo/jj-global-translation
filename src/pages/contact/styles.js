@@ -133,7 +133,7 @@ const useStyles = makeStyles((theme) => ({
         },
         contactEmail: {
             order: '2',
-            fontSize: '25px',
+            fontSize: '22px',
             justifyContent: 'center',
             marginTop: '-40px',
             "& > p": {
@@ -143,7 +143,7 @@ const useStyles = makeStyles((theme) => ({
             },
             "& > div": {
                 order: '2',
-                fontSize: '25px'
+                fontSize: '20px'
             }
         },
         contactPhone: {
@@ -154,7 +154,7 @@ const useStyles = makeStyles((theme) => ({
                 fontSize: '102px',
             },
             "& > div": {
-                fontSize: '25px'
+                fontSize: '20px'
             }
         },
         contactFormWrap: {  

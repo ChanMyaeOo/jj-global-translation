@@ -23,9 +23,9 @@ const Legal = () => {
                 </div>
 
                 <div className={classes.legalTypes}>
-                    <Link to="/">Certified Translations</Link>
-                    <Link to="/">Notarised Translations</Link>
-                    <Link to="/">Legalised Translations</Link>
+                    <Link to="#">Certified Translations</Link>
+                    <Link to="#">Notarised Translations</Link>
+                    <Link to="#">Legalised Translations</Link>
                 </div>
 
                 <Link to="/quote">
