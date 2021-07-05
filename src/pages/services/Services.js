@@ -14,10 +14,10 @@ const Services = () => {
                     Translation Services
                 </h2>
                 <h3>
-                   Translation Services offered by Translator UK: Translation Agency
+                   Translation Services offered by JJ Global Translation Agency
                 </h3>
             </div>
-            <p>Translator UK offers an expansive range of translation services throughout the United Kingdom. Below are only a few of the most common translation services that have been provided to clients within the past year.</p>
+            <p>JJ Global Translation offers an expansive range of translation services throughout the United Kingdom. Below are only a few of the most common translation services that have been provided to clients within the past year.</p>
 
             <Grid container className={classes.servicesItems}>
                 {
@@ -29,7 +29,7 @@ const Services = () => {
 
             <div className={classes.servicesPrices}>
                 <h3>Translation Service Prices</h3>
-                <p>Here at Translator UK we are pleased to offer a no-commitment quotation for translation projects no matter how big or small. One of our expert project managers will discuss your needs and work to find you the best possible price for translation considering your timeline.</p>
+                <p>Here at JJ Global Translation we are pleased to offer a no-commitment quotation for translation projects no matter how big or small. One of our expert project managers will discuss your needs and work to find you the best possible price for translation considering your timeline.</p>
             </div>
             <hr />
 

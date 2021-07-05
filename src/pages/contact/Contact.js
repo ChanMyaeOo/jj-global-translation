@@ -45,10 +45,10 @@ const Contact = () => {
     }
     return (
         <div className={classes.contact}>
-            <h2>Contact Translator UK Translation Agency</h2>
+            <h2>Contact JJ Global Translation Agency</h2>
             <div className={classes.contactTitleWrap}>
                 <h3>
-                    Contact details and form for Translator UK Translation
+                    Contact details and form for JJ Global Translation
                     Agency{" "}
                     <Link to="/" className={classes.contactRes}>
                         <em>Contact Human Resources</em>

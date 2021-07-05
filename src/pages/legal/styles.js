@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
         marginRight: '60px'
     },
     legalSubTitle: {
-        fontSize: '24px',
+        fontSize: '22px',
         color: 'rgba(0,0,0,0.40)',
         fontWeight: 'normal'
     },

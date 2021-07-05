@@ -186,8 +186,8 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center'
     },
     smallLogo: {
-        width: '75px',
-        height: '75px',
+        width: '130px',
+        height: '130px',
         marginBottom: '20px'
     },
 

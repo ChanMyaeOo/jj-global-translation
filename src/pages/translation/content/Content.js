@@ -8,7 +8,7 @@ const Content = () => {
     return (
         <div className={classes.content}>
             <p>
-                For more than a decade now, Translator UK has been providing a
+                For more than a decade now, JJ Global Translation has been providing a
                 wide range of translation services to clients in London, in the
                 United Kingdom and throughout the world. Below you will find all
                 you need to know about the services we offer.
@@ -17,7 +17,7 @@ const Content = () => {
             <div className={classes.selectionContent}>
                 <div className={classes.selectionLeft}>
                     <p>
-                        As a professional translation agency, Translator UK
+                        As a professional translation agency, JJ Global Translation
                         receives hundreds of CVs from qualified translators
                         every single day. It is our responsibility and our great
                         pleasure to systematically go through these and

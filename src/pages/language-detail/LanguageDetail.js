@@ -6,7 +6,7 @@ import { languagesData } from '../../data/languages'
 import useStyles from './styles'
 import DocumentImg from '../../images/big-document.webp'
 import Quote from '../../images/quote.webp'
-import SmallLogo from '../../images/small-logo.webp'
+import SmallLogo from '../../images/jj-logo.png'
 
 const LanguageDetail = () => {
     const classes = useStyles();
@@ -24,7 +24,9 @@ const LanguageDetail = () => {
                 <h3>
                     {language.text2}
                 </h3>
-                <img src={Quote} alt="quote" className={classes.quote} />
+                <Link to="/quote">
+                    <img src={Quote} alt="quote" className={classes.quote} />
+                </Link>
                 <p>
                     {language.text3}
                 </p>
@@ -76,7 +78,7 @@ const LanguageDetail = () => {
                 <h3>{language.langName} Translation Agency Reviews</h3>
                 <div className={classes.reviewHeader}>
                     <Link to="/" className={classes.languageStar}>★ ★ ★ ★ ☆</Link>
-                    <p>{language.text6} <Link to="/" className={classes.reviewTranslator}>Review Translator UK.</Link></p>
+                    <p>{language.text6} <Link to="/" className={classes.reviewTranslator}>Review JJ Global Translation.</Link></p>
 
                 </div>
             </div>
@@ -95,7 +97,7 @@ const LanguageDetail = () => {
 
             <div className={classes.leftBox}>
                 <h3>{language.langName} Translator Jobs</h3>
-                <p>If you are a qualified {language.langName} translator that has a university degree in translation and are not yet registered with us, we would be delighted to hear from you. Simply email your CV and references to translatorcv@translatoruk.co.uk and our HR department will be in touch with you shortly thereafter.</p>
+                <p>If you are a qualified {language.langName} translator that has a university degree in translation and are not yet registered with us, we would be delighted to hear from you. Simply email your CV and references to info@jjglobaltranslation.com and our HR department will be in touch with you shortly thereafter.</p>
                 <Link to="/" className={classes.envelop}>✉</Link>
             </div>
 

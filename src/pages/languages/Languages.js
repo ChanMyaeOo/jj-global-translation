@@ -10,12 +10,12 @@ const Languages = () => {
     const classes = useStyles();
     return (
         <div className={classes.languages}>
-            <h2>Translator UK Translation Languages</h2>
-            <h3>Core translation languages offered by Translator UK translators</h3>
+            <h2>JJ Global Translation Languages</h2>
+            <h3>Core translation languages offered by JJ Global Translation translators</h3>
             <Link to="/quote">
                 <img src={Quote} alt="quote" className={classes.languagesQuote} />
             </Link>
-            <p>Since 2010, Translator UK has performed translation services in over 425 different language combinations. It would not be possible for us to list them all. Below you will find the most common languages we have worked with - either from or to English - since we have started servicing translation clients in the UK.</p>
+            <p>Since 2010, JJ Global Translation has performed translation services in over 425 different language combinations. It would not be possible for us to list them all. Below you will find the most common languages we have worked with - either from or to English - since we have started servicing translation clients in the UK.</p>
             <br />
             <p>If you do not see the language you require listed below, we would ask that you please contact us and let us know what language(s) you are after. We will most certainly be able to cater to your request and use professional translators based in the UK whenever possible or throughout the world that are specialised in the language combination you seek.</p>
 

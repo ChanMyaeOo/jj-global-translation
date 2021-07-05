@@ -22,6 +22,6 @@ export const pricesData = [
     {
         id: '5',
         title: 'Document Format',
-        text: "Depending on how the documents are sent to Translator UK and how the final translation is required to be delivered can also impact the price. Standard text (sent via email, Microsoft Word documents, etc.) will generally incur no surcharge. provided the translation does not require additional typesetting or manipulating on the translator's part."
+        text: "Depending on how the documents are sent to JJ Global Translation and how the final translation is required to be delivered can also impact the price. Standard text (sent via email, Microsoft Word documents, etc.) will generally incur no surcharge. provided the translation does not require additional typesetting or manipulating on the translator's part."
     }
 ]

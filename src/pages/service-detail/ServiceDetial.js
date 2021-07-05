@@ -132,7 +132,7 @@ const ServiceDetial = () => {
                         xs={12}
                         className={classes.item}
                     >
-                        <Link to="/" className={classes.itemTitle}>
+                        <Link to="/services/5" className={classes.itemTitle}>
                             Certified Translations
                         </Link>
                     </Grid>
@@ -144,7 +144,7 @@ const ServiceDetial = () => {
                         xs={12}
                         className={classes.item}
                     >
-                        <Link to="/" className={classes.itemTitle}>
+                        <Link to="/services/2" className={classes.itemTitle}>
                             Website Translations
                         </Link>
                     </Grid>
@@ -156,7 +156,7 @@ const ServiceDetial = () => {
                         xs={12}
                         className={classes.item}
                     >
-                        <Link to="/" className={classes.itemTitle}>
+                        <Link to="/services/3" className={classes.itemTitle}>
                             Sworn Translations
                         </Link>
                     </Grid>
@@ -168,7 +168,7 @@ const ServiceDetial = () => {
                         xs={12}
                         className={classes.item}
                     >
-                        <Link to="/" className={classes.itemTitle}>
+                        <Link to="/legal-translation" className={classes.itemTitle}>
                             Legal Translations
                         </Link>
                     </Grid>
@@ -180,7 +180,7 @@ const ServiceDetial = () => {
                         xs={12}
                         className={classes.item}
                     >
-                        <Link to="/" className={classes.itemTitle}>
+                        <Link to="/services/7" className={classes.itemTitle}>
                             Certificate Translations
                         </Link>
                     </Grid>
@@ -192,7 +192,7 @@ const ServiceDetial = () => {
                         xs={12}
                         className={classes.item}
                     >
-                        <Link to="/" className={classes.itemTitle}>
+                        <Link to="/services/10" className={classes.itemTitle}>
                             Standard Translations
                         </Link>
                     </Grid>
@@ -204,7 +204,7 @@ const ServiceDetial = () => {
                         xs={12}
                         className={classes.item}
                     >
-                        <Link to="/" className={classes.itemTitle}>
+                        <Link to="/services/4" className={classes.itemTitle}>
                             Mobile App Translations
                         </Link>
                     </Grid>
@@ -216,7 +216,7 @@ const ServiceDetial = () => {
                         xs={12}
                         className={classes.item}
                     >
-                        <Link to="/" className={classes.itemTitle}>
+                        <Link to="/services/6" className={classes.itemTitle}>
                             Technical Translations
                         </Link>
                     </Grid>
@@ -228,7 +228,7 @@ const ServiceDetial = () => {
                         xs={12}
                         className={classes.item}
                     >
-                        <Link to="/" className={classes.itemTitle}>
+                        <Link to="/services/8" className={classes.itemTitle}>
                             Medical Translations
                         </Link>
                     </Grid>
@@ -240,7 +240,7 @@ const ServiceDetial = () => {
                         xs={12}
                         className={classes.item}
                     >
-                        <Link to="/" className={classes.itemTitle}>
+                        <Link to="/services/11" className={classes.itemTitle}>
                             User Manual Translations
                         </Link>
                     </Grid>

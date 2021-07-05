@@ -135,10 +135,7 @@ const QuoteForm = () => {
                 Translation will be held in the strictest of confidence in line
                 with the latest policies pertaining to GDPR. Submitting
                 information on this page is acknowledgement that you accept our
-                terms and conditions and our privacy policy as stated at:{" "}
-                <Link to="/" className={classes.termAndCond}>
-                    Terms &amp; Conditions
-                </Link>
+                terms and conditions and our privacy policy as stated at: Terms &amp; Conditions
             </p>
         </div>
     );
