@@ -4,6 +4,9 @@ import useStyles from "./styles";
 
 const QuoteForm = () => {
     const classes = useStyles();
+    const YOUR_SERVICE_ID = "";
+    const YOUR_TEMPLATE_ID = "";
+    const YOUR_USER_ID = "";
     // to clear file input
     let randomString = Math.random().toString(36);
     const [formData, setFormData] = useState({
@@ -25,10 +28,10 @@ const QuoteForm = () => {
 
         emailjs
             .sendForm(
-                "service_eaw9okn",
-                "quote_form",
+                YOUR_SERVICE_ID,
+                YOUR_TEMPLATE_ID,
                 e.target,
-                "user_zQ9il5a0ZaD0tcl6PUzMs"
+                YOUR_USER_ID
             )
             .then(
                 (result) => {

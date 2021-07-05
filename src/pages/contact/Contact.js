@@ -6,6 +6,9 @@ import Quote from "../../images/quote.webp";
 
 const Contact = () => {
     const classes = useStyles();
+    const YOUR_SERVICE_ID = "";
+    const YOUR_TEMPLATE_ID = "";
+    const YOUR_USER_ID = "";
     
     const [formData, setFormData] = useState({
         user_name: "",
@@ -22,10 +25,10 @@ const Contact = () => {
         e.preventDefault();
 
         emailjs.sendForm(
-            "service_eaw9okn",
-            "contact_form",
+            YOUR_SERVICE_ID,
+            YOUR_TEMPLATE_ID,
             e.target,
-            "user_zQ9il5a0ZaD0tcl6PUzMs"
+            YOUR_USER_ID
         ).then(
             (result) => {
                 setFormData({
