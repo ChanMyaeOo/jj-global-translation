@@ -1,6 +1,6 @@
 import React from "react";
 import useStyles from "./styles";
-import ServiceImg from '../../images/services.jpg'
+import ServiceImg from '../../images/jj-serv.png'
 
 const Hero = () => {
     const classes = useStyles();
